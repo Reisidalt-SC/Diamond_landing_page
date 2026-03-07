@@ -1,0 +1,154 @@
+.header {
+    background-color: var(--header--color);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.12);
+    height: 76px;
+}
+
+
+.menu_button {
+    font-size: clamp(25px, 4vw, 30px);
+    color: var(--gray--font);
+    cursor: pointer;
+}
+
+
+.navegation_list {
+    position: absolute;          
+    top: 76px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 10px;
+    gap: 1.5rem;
+    background-color: var(--header--color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.12);
+
+    
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+
+    
+    & ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+
+        & a {
+            text-decoration: none;
+            color: var(--gray--font);
+            font-size: clamp(18px, 2.6vw, 20px);
+            transition: border-bottom 0.3s ease, font-weight 0.3s ease, color 0.3s ease;
+        }
+
+        & a:hover {
+            color: var(--orange--backgroundHover);
+        }
+
+        & a.active {
+            border-bottom: var(--orange--backgroundHover) 2px solid;
+            font-weight: bold;
+        }
+    }
+
+    
+    .hire_button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 12px 20px;
+        color: var(--white--background);
+        font-size: clamp(15px, 2.2vw, 17px);
+        background-color: var(--orange--background);
+        border: none;
+        border-radius: 10px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .hire_button:hover {
+        background-color: var(--orange--backgroundHover);
+        transform: scale(1.10);
+        cursor: pointer;
+    }
+}
+
+
+.navegation_list.active {
+    transform: scaleY(1);         
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    & i {
+        font-size: clamp(25px, 26px, 28px);
+        color: var(--orange--font);
+    }
+
+    .logo_text {
+        display: flex;
+        flex-direction: column;
+
+        & p {
+            font-size: clamp(18px, 18.5px, 19px);
+            color: var(--gray--font);
+        }
+
+        & span {
+            font-size: clamp(13px, 13px, 13.5px);
+            font-weight: bold;
+            color: var(--orange--font);
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .header {
+        padding: 20px clamp(5vh, 6vw, 20vh);
+    }
+
+    .menu_button {
+        display: none;
+    }
+
+    .navegation_list {
+        position: static;            
+        flex-direction: row;
+        align-items: center;
+        transform: none;             
+        overflow: visible;
+        gap: 3rem;
+        padding: 0;
+        width: auto;
+        box-shadow: none;
+
+        & ul {
+            flex-direction: row;
+            gap: 2.5rem;
+        }
+
+        .hire_button {
+            width: 100%;
+        }
+    }
+}
+
+

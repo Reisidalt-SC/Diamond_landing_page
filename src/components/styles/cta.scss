@@ -1,0 +1,134 @@
+
+.cta_area {
+  background-color: var(--background--color1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+  flex: 1;
+  align-items: stretch;
+
+  .right_cta_area {
+    flex: 5;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    & video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+  }
+
+  .left_cta_area {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+
+    p {
+      color: var(--orange--font);
+      padding: 15px;
+      background-color: var(--transparent--orange);
+      width: fit-content;
+      border-radius: 25px;
+      border: 1px solid var(--orange--font);
+      font-size: clamp(14px, 2vw, 16px);
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    h1 {
+      font-size: clamp(35px, 4.5vw, 48px);
+      color: var(--gray--font);
+
+      span {
+        color: var(--orange--font);
+        font-style: italic;
+      }
+    }
+
+    h2 {
+      font-weight: lighter;
+      font-size: clamp(20px, 2.8vw, 24px);
+      color: var(--light--gray--font);
+    }
+
+    .cta_attributes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+
+      .attributes_field {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 10px 20px;
+        background-color: var(--white--background);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+
+        i {
+          font-size: clamp(15px, 2vw, 18px);
+          color: var(--orange--font);
+        }
+
+        span {
+          font-size: clamp(20px, 2.8vw, 24px);
+          color: var(--grey--font);
+        }
+      }
+    }
+
+    .cta_buttons {
+      display: flex;
+      gap: 1rem;
+
+      button {
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        border-radius: 10px;
+        color: var(--white--background);
+        font-size: clamp(16px, 2.3vw, 18px);
+      }
+
+      .plans_button {
+        background-color: var(--orange--font);
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: var(--orange--backgroundHover);
+          transform: scale(1.10);
+          cursor: pointer;
+        }
+      }
+
+      .cta_hire_button {
+        background-color: var(--gray--font);
+        transition: all 0.3s ease;
+
+        &:hover {
+          background-color: var(--gray--backgroundHover);
+          transform: scale(1.10);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+    .cta_area {
+      flex-direction: row;
+    }
+}
