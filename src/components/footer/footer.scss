@@ -56,9 +56,8 @@
                     transition: all 0.3s ease;
 
                     &:hover {
-                        transform: translateY(-10px) scale(1.05);
+                        transform: scale(1.02);
                         color: var(--white--background);
-                        border: none;
                         background-color: var(--orange--backgroundHover);
                     }
                 }

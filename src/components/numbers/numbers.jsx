@@ -1,4 +1,4 @@
-import '../styles/numbers.scss';
+import './numbers.scss';
 
 function Numbers() {
     return(

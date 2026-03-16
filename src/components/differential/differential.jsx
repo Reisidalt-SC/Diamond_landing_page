@@ -1,4 +1,4 @@
-import '../styles/differential.scss';
+import './differential.scss';
 import { img1, img2, img3, img4, img5, img6 } from "../../assets/images";
 
 function Differential() {

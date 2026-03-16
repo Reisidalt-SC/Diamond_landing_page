@@ -1,4 +1,4 @@
-import '../styles/products.scss';
+import './products.scss';
 import { img1, img2, img3, img4, img5, img6 } from "../../assets/images";
 
 function Products() {

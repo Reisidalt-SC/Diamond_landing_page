@@ -1,4 +1,4 @@
-import '../styles/prices.scss';
+import './prices.scss';
 
 function Prices() {
     return(

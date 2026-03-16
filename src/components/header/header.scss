@@ -82,6 +82,7 @@
     .hire_button:hover {
         background-color: var(--orange--backgroundHover);
         transform: scale(1.10);
+        transform-origin: center;
         cursor: pointer;
     }
 }

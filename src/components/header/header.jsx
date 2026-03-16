@@ -1,4 +1,4 @@
-import '../styles/header.scss';
+import './header.scss';
 import { useState, useEffect } from "react";
 
 

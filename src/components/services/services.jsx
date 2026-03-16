@@ -1,4 +1,4 @@
-import '../styles/services.scss';
+import './services.scss';
 
 
 function Services() {

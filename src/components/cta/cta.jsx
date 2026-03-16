@@ -1,4 +1,4 @@
-import '../styles/cta.scss';
+import './cta.scss';
 import backgroundVideo from '../../assets/video/cta_video.mp4';
 
 function Cta() {

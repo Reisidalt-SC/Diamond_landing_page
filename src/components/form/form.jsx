@@ -1,4 +1,4 @@
-import '../styles/form.scss';
+import './form.scss';
 
 function Form(){
     return(

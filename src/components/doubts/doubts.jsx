@@ -1,4 +1,4 @@
-import '../styles/doubts.scss';
+import './doubts.scss';
 import { useState } from "react";
 
 function Doubts() {
