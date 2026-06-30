@@ -21,6 +21,7 @@ In development.
 * Responsive layout
 * Modern design
 * Component-based structure using React
+* link: https://reisidalt-sc.github.io/Diamond_landing_page/
 
 
 
