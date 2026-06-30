@@ -1,4 +1,4 @@
-
+![Dashboard](./screenshots/d1.png)
 
 # Internet Company Landing Page Ptbr vers
 
