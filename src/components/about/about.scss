@@ -8,7 +8,7 @@
 
     & span {
         color: var(--orange--font);
-        font-size: clamp(20px, 3vw, 23px);
+        font-size: clamp(12px, 3vw, 14px);
     }
 
     .about_text {
@@ -17,16 +17,16 @@
         gap: 1.8rem;
 
         & h1 {
-            font-size: clamp(35px, 4.5vw, 48px);
+            font-size: clamp(21px, 4.5vw, 29px);
 
             & span {
                 font-style: italic;
-                font-size: clamp(35px, 4.5vw, 48px);
+                font-size: clamp(21px, 4.5vw, 29px);
             }
         }
 
         & p {
-            font-size: clamp(20px, 3vw, 23px);
+            font-size: clamp(12px, 3vw, 14px);
             color: var(--light--gray--font);
 
             & b {
@@ -46,11 +46,11 @@
             justify-content: center;
 
             & span {
-                font-size: clamp(26px, 3.7vw, 34px);
+                font-size: clamp(16px, 3.7vw, 21px);
             }
 
             & p {
-                font-size: clamp(15px, 2vw, 18px);
+                font-size: clamp(9px, 2vw, 11px);
                 color: var(--light--gray--font);
             }
         }
@@ -79,7 +79,7 @@
                 align-self: flex-start;
                 border-radius: 15px;
                 padding: 15px;
-                font-size: clamp(20px, 2.5vw, 24px);
+                font-size: clamp(12px, 2.5vw, 15px);
                 color: var(--white--background);
                 background-color: var(--orange--font);
                 border: none;
@@ -88,13 +88,13 @@
 
            & span {
             color: black;
-            font-size: clamp(25px, 3.5vw, 30px);
+            font-size: clamp(15px, 3.5vw, 18px);
             transition: all 0.3s ease-in-out;
             font-weight: 600;
            }
            
            & p {
-            font-size: clamp(17px, 2.5vw, 19px);
+            font-size: clamp(10px, 2.5vw, 12px);
             color: var(--light--gray--font);
            }
 
@@ -123,10 +123,10 @@
         color: var(--white--background);
         background-color: var(--gray--font);
         border-radius: 15px;
-        font-size: clamp(15px, 2vw, 17px);
+        font-size: clamp(9px, 2vw, 10px);
 
         & strong {
-            font-size: clamp(20px, 2.8vw, 24px);
+            font-size: clamp(12px, 2.8vw, 15px);
         }
     }
 }

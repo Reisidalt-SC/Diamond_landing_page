@@ -50,7 +50,7 @@
                 width: 100%;
 
                 & i {
-                    font-size: clamp(30px, 3.5vw, 40px);
+                    font-size: clamp(16px, 3.5vw, 20px);
                     display: flex;
                     align-items: center;
                     justify-content: center;
@@ -73,13 +73,13 @@
                 gap: 12px;
 
                 & span {
-                    font-size: clamp(20px, 2.6vw, 24px);
+                    font-size: clamp(12px, 2.6vw, 15px);
                     font-weight: 550;
                     transition: all 0.3s ease-in-out;
                 }
 
                 & p {
-                    font-size: clamp(16px, 2.2vw, 18px);
+                    font-size: clamp(10px, 2.2vw, 12px);
                     color: var(--light--gray--font);
                 }
             }

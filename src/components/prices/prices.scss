@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    background-color: var(--background--color1) ;
+    background-color: var(--background--color1);
     overflow: hidden;
 
     .prices_grid {
@@ -56,24 +56,25 @@
                 background-color: #f4f6f6;
 
                 & strong {
-                    font-size: clamp(25px, 3.2vw, 30px);
+                    font-size: clamp(12px, 3.2vw, 15px);
                 }
 
                 & span {
-                    font-size: clamp(40px, 5vw, 48px);
+                    font-size: clamp(19px, 5vw, 23px);
+
                     & small {
-                        font-size: clamp(22px, 2.8vw, 26px);
+                        font-size: clamp(11px, 2.8vw, 13px);
                         color: var(--light--gray--font);
                     }
                 }
 
                 & p {
-                    font-size: clamp(18px, 2.6vw, 20px);
+                    font-size: clamp(11px, 2.6vw, 13px);
                     color: var(--light--gray--font);
                     
                     .orange_price {
                         color: var(--orange--font);
-                        font-size: clamp(30px, 4vw, 36px);
+                        font-size: clamp(15px, 4vw, 18px);
                     }
                 }
             }
@@ -91,7 +92,7 @@
                     display: flex;
                     flex-direction: column;
                     gap: 15px;
-                    font-size: clamp(17px, 2.4vw, 19px);
+                    font-size: clamp(10px, 2.4vw, 12px);
                     color: var(--light--gray--font);
 
                     & li::marker {
@@ -100,9 +101,9 @@
                 }
 
                 .value_button {
-                    font-size: clamp(17px, 2.4vw, 19px);
+                    font-size: clamp(11px, 2.4vw, 13px);
                     width: 100%;
-                    padding:  15px 20px;
+                    padding: 15px 20px;
                     border: none;
                     color: var(--white--background);
                     border-radius: 10px;
@@ -121,7 +122,6 @@
                 outline: 1px solid var(--orange--font);
                 transform: scale(1.05);
             }
-
         }
     }
 }

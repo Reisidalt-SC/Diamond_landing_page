@@ -23,7 +23,7 @@
             .logo {
                 & p {
                     color: var(--white--background);
-                    font-size: clamp(15px, 2.4vw, 17px);
+                    font-size: clamp(10px, 2.4vw, 12px);
 
                     &:hover {
                         color: var(--orange--backgroundHover);
@@ -33,7 +33,7 @@
 
             & p {
                 color: var(--light--gray--font);
-                font-size: clamp(15px, 2.4vw, 17px);
+                font-size: clamp(10px, 2.4vw, 12px);
             }
 
             .social_links {
@@ -50,7 +50,7 @@
                     border: 1px solid gray;
                     border-radius: 15px;
                     padding: 12px;
-                    font-size: clamp(18px, 2.6vw, 20px);
+                    font-size: clamp(12px, 2.6vw, 14px);
                     text-decoration: none;
                     color: var(--light--gray--font);
                     transition: all 0.3s ease;
@@ -75,7 +75,7 @@
 
             & span {
                 color: var(--orange--font);
-                font-size: clamp(15px, 2.3vw, 16px);
+                font-size: clamp(10px, 2.3vw, 12px);
             }
 
             .links_list {
@@ -99,15 +99,14 @@
                     & a {
                         text-decoration: none;
                         color: var(--light--gray--font);
-                        font-size: clamp(15px, 2.3vw, 16px);
+                        font-size: clamp(10px, 2.3vw, 12px);
                         transition: all 0.5s ease;
                     }
                 }
 
                 & li::marker {
-                        color: var(--orange--font);
-            
-                    }
+                    color: var(--orange--font);
+                }
             }
         }
     }
@@ -123,43 +122,41 @@
             display: flex;
             flex-direction: column;
             gap: 2rem;
-            
 
             & span {
                 color: var(--orange--font);
-                font-size: clamp(15px, 2.3vw, 16px);
+                font-size: clamp(10px, 2.3vw, 12px);
             }
 
             .left_list {
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
-                
 
                 & li {
                     list-style-type: none;
                     transition: all 0.5s ease;
-                    
 
                     &:hover {
                         list-style: disc;
                         transform: translateX(10px);
-                         & a {
+
+                        & a {
                             color: var(--orange--backgroundHover);
-                         }
+                        }
                     }
 
                     & a {
                         text-decoration: none;
                         color: var(--light--gray--font);
-                        font-size: clamp(15px, 2.3vw, 16px);
+                        font-size: clamp(10px, 2.3vw, 12px);
                         transition: all 0.5s ease;
                     }
                 }
 
                 & li::marker {
-                        color: var(--orange--font); }
-
+                    color: var(--orange--font);
+                }
             }
 
             .cnpj_area {
@@ -173,11 +170,11 @@
                 backdrop-filter: blur(5px);
                 border: 1px solid gray;
                 border-radius: 15px;
-                font-size: clamp(15px, 2.3vw, 16px);
+                font-size: clamp(10px, 2.3vw, 12px);
 
                 & span {
                     color: var(--light--gray--font);
-                    font-size: clamp(15px, 2.3vw, 16px);
+                    font-size: clamp(10px, 2.3vw, 12px);
                 }
             }
         }
@@ -190,7 +187,7 @@
 
             & span {
                 color: var(--orange--font);
-                font-size: clamp(15px, 2.3vw, 16px);
+                font-size: clamp(10px, 2.3vw, 12px);
             }
 
             .contacts_field {
@@ -210,11 +207,10 @@
                         align-items: center;
                         justify-content: center;
                         padding: 12px;
-                        font-size: 20px;
                         color: var(--orange--font);
                         background-color: #4c3e35;
                         border-radius: 15px;
-                        font-size: clamp(20px, 2.8vw, 22px);
+                        font-size: clamp(12px, 2.8vw, 14px);
                         transition: all 0.5s ease;
                         cursor: pointer;
 
@@ -231,7 +227,7 @@
 
                         & span {
                             color: var(--light--gray--font);
-                            font-size: clamp(15px, 2.3vw, 16px);
+                            font-size: clamp(10px, 2.3vw, 12px);
                             transition: all 0.5s ease;
 
                             &:hover {
@@ -240,8 +236,6 @@
                             }
                         }
                     }
-
-                    
                 }
             }
         }
@@ -251,8 +245,7 @@
         padding: 25px 15px;
         border-top: 1px solid gray;
         color: var(--light--gray--font);
-        font-size: 18px;
-        font-size: clamp(16px, 2.4vw, 18px);
+        font-size: clamp(10px, 2.4vw, 12px);
     }
 }
 
@@ -269,7 +262,6 @@
         }
     }
 }
-
 
 @media (min-width: 1200px) {
     .footer_area {

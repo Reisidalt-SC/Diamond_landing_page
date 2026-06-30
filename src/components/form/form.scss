@@ -18,7 +18,7 @@
 
         & label {
             font-weight: bold;
-            font-size: clamp(16px, 2.4vw, 18px);
+            font-size: clamp(10px, 2.4vw, 12px);
         }
 
         .input_field{
@@ -32,7 +32,7 @@
                 border-radius: 10px;
                 background-color: var(--input--background);
                 border: 1px solid rgba(0, 0, 0, 0.1);
-                font-size: clamp(16px, 2.4vw, 17px);
+                font-size: clamp(10px, 2.4vw, 12px);
             }
         }
 
@@ -43,12 +43,12 @@
 
             input,
             select {
-            width: 100%;
-            padding: 10px 15px;
-            border-radius: 10px;
-            background-color: var(--input--background);
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            font-size: clamp(16px, 2.4vw, 17px);        
+                width: 100%;
+                padding: 10px 15px;
+                border-radius: 10px;
+                background-color: var(--input--background);
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                font-size: clamp(10px, 2.4vw, 12px);        
             }
 
             .select_field {
@@ -69,7 +69,7 @@
                 background-color: var(--input--background);
                 border: 1px solid rgba(0, 0, 0, 0.1);
                 border-radius: 15px;
-                font-size: clamp(16px, 2.4vw, 17px);
+                font-size: clamp(10px, 2.4vw, 12px);
             }
         }
 
@@ -84,7 +84,7 @@
             background-color: var(--orange--font);
             border: none;
             border-radius: 15px;
-            font-size: clamp(17px, 2.6vw, 19px);
+            font-size: clamp(11px, 2.6vw, 13px);
             cursor: pointer;
             transition: all 0.3s ease;
 
@@ -115,7 +115,7 @@
 
             & span {
                 color: var(--white--background);
-                font-size: clamp(30px, 4vw, 36px);
+                font-size: clamp(19px, 4vw, 23px);
                 font-weight: bold;
             }
 
@@ -132,7 +132,7 @@
                     padding: 13px;
                     color: var(--white--background);
                     background-color: var(--orange--font);
-                    font-size: clamp(22px, 3vw, 24px);
+                    font-size: clamp(12px, 3vw, 14px);
                     border-radius: 12px;
                     transition: all 0.3s ease;
 
@@ -149,14 +149,13 @@
                     & span {
                         color: var(--white--background);
                         font-weight: bold;
-                        font-size: clamp(20px, 2.8vw, 22px);
+                        font-size: clamp(11px, 2.8vw, 13px);
                     }
 
                     & p {
                         color: var(--light--gray--font);
-                        font-size: clamp(16px, 2.4vw, 17px);
+                        font-size: clamp(10px, 2.4vw, 12px);
                     }
-                    
                 }
             }
         }
@@ -172,7 +171,7 @@
                 display: flex;
                 gap: 10px;
                 color: var(--white--background);
-                font-size: clamp(20px, 2.8vw, 22px);
+                font-size: clamp(11px, 2.8vw, 13px);
 
                 & i {
                     color: var(--orange--font);
@@ -183,12 +182,12 @@
                 display: flex;
                 flex-direction: column;
                 gap: 0.5rem;
-                
+
                 & div {
                     display: flex;
                     justify-content: space-between;
                     color: var(--light--gray--font);
-                    font-size: clamp(17px, 2.5vw, 18px);
+                    font-size: clamp(10px, 2.5vw, 12px);
                 }
             }
         }
@@ -206,16 +205,15 @@
         transition: all 0.3s ease;
 
         & strong {
-            font-size: clamp(26px, 3.8vw, 32px);
-            
+            font-size: clamp(15px, 3.8vw, 18px);
         }
 
         & p {
-            font-size: clamp(18px, 2.6vw, 20px);
+            font-size: clamp(11px, 2.6vw, 13px);
         }
 
         & span {
-            font-size: clamp(40px, 5vw, 48px);
+            font-size: clamp(19px, 5vw, 23px);
             font-weight: bold;
         }
 
@@ -241,14 +239,15 @@
     .form_area {
         .form_container {
             flex-direction: row;
+
             .form {
                 flex: 4.5;
                 height: 50%;
             }
+
             .second_section {
                 flex: 5.5;
             }
         }
     }
 }
-

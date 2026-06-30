@@ -22,16 +22,16 @@
             gap: 1rem;
 
             & strong {
-               font-size: clamp(30px, 3.9vw, 36px); 
+                font-size: clamp(15px, 3.9vw, 18px);
             }
 
             & p {
-                font-size: clamp(16px, 2.4vw, 18px);
+                font-size: clamp(10px, 2.4vw, 12px);
             }
         }
 
         & button {
-            font-size: clamp(16px, 2.4vw, 18px);
+            font-size: clamp(10px, 2.4vw, 12px);
             padding: 15px 30px;
             align-self: center;
             border-radius: 10px;
@@ -60,12 +60,13 @@
             gap: 1.2rem;
             border: 1px solid rgba(0, 0, 0, 0.1);
             border-radius: 15px;
-            background:radial-gradient(120% 80% at 70% 30%,rgba(255, 155, 81, 0.18) 0%,rgba(255, 155, 81, 0.08) 35%,rgba(255, 255, 255, 0) 70%),linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%);
+            background: radial-gradient(120% 80% at 70% 30%,rgba(255, 155, 81, 0.18) 0%,rgba(255, 155, 81, 0.08) 35%,rgba(255, 255, 255, 0) 70%),
+                        linear-gradient(180deg,#ffffff 0%,#f9fbfd 100%);
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
             transition: all 0.3s ease-in-out;
             
             & i {
-                font-size: clamp(30px, 3.5vw, 36px);
+                font-size: clamp(16px, 3.5vw, 20px);
                 color: var(--orange--font);
                 display: flex;
                 align-items: center;
@@ -80,11 +81,11 @@
             }
 
             & span {
-                font-size: clamp(20px, 2.6vw, 23px);
+                font-size: clamp(12px, 2.6vw, 15px);
             }
 
             & p {
-                font-size: clamp(15px, 2.3vw, 17px);
+                font-size: clamp(10px, 2.3vw, 12px);
                 color: var(--light--gray--font);
             }
 
@@ -98,7 +99,6 @@
                 }
             }
         }
-
     }
 }
 
